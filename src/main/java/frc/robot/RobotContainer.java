@@ -225,9 +225,9 @@ public class RobotContainer {
       autoChooser.addOption(
           "Red Center Hub Auto V1",
           AutoCommands.redCenterHubAutoV1(drive, launcherfoc, hopper, intake));
-      autoChooser.addOption(
-          "Red Center Hub Auto V2",
-          AutoCommands.redCenterHubAutoV2(drive, launcherfoc, hopper, intake));
+      // autoChooser.addOption(
+      //     "Red Center Hub Auto V2",
+      //     AutoCommands.redCenterHubAutoV2(drive, launcherfoc, hopper, intake));
     }
 
     /*

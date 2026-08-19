@@ -2,15 +2,15 @@ package frc.robot.subsystems.launcherfoc;
 
 public class LauncherFOCConstants {
   /** CAN ID of the leader motor. */
-  public static final int leaderCanId = 60;
+  public static final int leaderCanId = 61;
 
   /** CAN ID of the follower motor. */
-  public static final int followerCanId = 61;
+  public static final int followerCanId = 60;
 
   /** Motor inversion settings. */
-  public static final boolean leaderInverted = true;
+  public static final boolean leaderInverted = false;
 
-  public static final boolean followerInverted = false;
+  public static final boolean followerInverted = true;
 
   /**
    * Set true if the follower must oppose the leader because the motors are mirrored mechanically.
@@ -25,7 +25,6 @@ public class LauncherFOCConstants {
 
   /** Idle target in AXLE rotations/sec. */
   public static final double defaultIdleRps = 5.0;
-
   /** Explicit launcher presets in AXLE rotations/sec. Tune these on the real robot. */
   public static final double kLauncherNearRps = 12.0;
 
@@ -48,7 +47,7 @@ public class LauncherFOCConstants {
   public static final double launcherFeedforwardAmps = 0.0;
 
   /** Slot 0 gains for VelocityTorqueCurrentFOC. */
-  public static final double launcherKP = 10.0; // Was .18
+  public static final double launcherKP = 14.0; // Was .18
 
   public static final double launcherKV = 0.6;
   public static final double launcherKI = 0.0;

@@ -110,7 +110,7 @@ public class AutoCommands extends Command {
     if (intake == null) {
       return Commands.deadline(
           Commands.waitSeconds(SHOOT_SPINUP_SEC + SHOOT_FEED_SEC),
-          LauncherFOCCommands.pullInMid(launcherfoc),
+          LauncherFOCCommands.pullInNear(launcherfoc),
           Commands.sequence(Commands.waitSeconds(SHOOT_SPINUP_SEC), HopperCommands.pullIn(hopper)));
     }
 

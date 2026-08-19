@@ -26,11 +26,11 @@ public final class IntakeConstants {
   public static final boolean motorInverted = true;
 
   /** Default speed for the subsystem if nothing else is controlling it. */
-  public static final double defaultSpeed = 0.85;
+  public static final double defaultSpeed = 0.75;
 
   /** */
   // TODO - Set real value for motorCurrentLimit
-  static final int motorCurrentLimit = 30;
+  static final int motorCurrentLimit = 25;
   /** */
   // TODO - Set real value for motorVoltageComp
   static final double motorVoltageComp = 12.0;
